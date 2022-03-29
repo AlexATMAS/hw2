@@ -25,7 +25,7 @@ public class Main
         boolean h = true;
         boolean h1 = false;
 
-        if (g2 == true) // g2 - истина ?
+        if (g2) // g2 - истина ?
         {
             System.out.println(h); // да , это так!
         } else
@@ -57,10 +57,10 @@ public class Main
         int masBanana = banana * 80; // масса бананов;
         int masMilk = milk * 2 * 105; // масса молока;
         int masIceCream = iceCrime * 100; // масса мороженого;
-        int masEggs = eggs * 100; //  масса яиц;
+        int masEggs = eggs * 70; //  масса яиц;
         // c переменной молока недопонимание, решение верное , но как написать это правильно я "не догнал" ))
 
-        int masSportFit = (masBanana + masEggs + masIceCream + masMilk);
+        float masSportFit = (masBanana + masEggs + masIceCream + masMilk);
         masSportFit /= 1000;
 
         System.out.println("Вес такого спорт-завтрака равен: " + masSportFit + " кг.");
